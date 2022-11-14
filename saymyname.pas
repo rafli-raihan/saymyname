@@ -33,14 +33,13 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  If (Edit1.Text) = 'Heisenberg' then
-  ShowMessage('Youre god damn right!');
+  If (Edit1.Text) = 'Heisenberg' 
+  then ShowMessage('Youre god damn right!')
   else
-  If (Edit1.Text) = 'Waltuh' then
-  ShowMessage('Waltuh, Put ur d8 away Waltuh!'); 
-  else ShowMessage('no');
-  end
-  end;
+  If (Edit1.Text) = 'Waltuh' 
+  then ShowMessage('Waltuh, Put ur d8 away Waltuh!') 
+  else ShowMessage('no')
+end;
 
 end.
 
